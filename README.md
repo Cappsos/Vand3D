@@ -166,5 +166,6 @@ Key parameters in training configs:
 ```
 
 ## License
+This project is licensed under the [MIT License](LICENSE).\
 
 TODO - Add license.
