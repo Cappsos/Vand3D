@@ -2,8 +2,9 @@
 
 Vision-Language Anomaly Detection for 3D Medical Volumes.
 
-VAND3D adapts [M3D-CLIP](https://huggingface.co/GoodBaiBai88/M3D-CLIP) for zero-/few-shot 3D anomaly detection and segmentation in brain MRI scans (BraTS dataset). A lightweight trainable linear adapter aligns frozen vision transformer features with text prompt embeddings, producing voxel-level anomaly maps via cosine similarity.
+VAND3D adapts [M3D-CLIP](https://huggingface.co/GoodBaiBai88/M3D-CLIP) for zero- and few-shot **3D anomaly detection and segmentation** in brain MRI scans (BraTS dataset). The approach is inspired by CLIP-based anomaly detection methods proposed in the VAND challenge report (https://arxiv.org/abs/2305.17382), which align visual features with text embeddings through additional linear layers to generate anomaly maps. 
 
+In our implementation, a lightweight trainable linear adapter aligns frozen vision transformer features with text prompt embeddings, producing voxel-level anomaly maps via cosine similarity.
 ```
                                     ┌──────────────────┐
   3D MRI Sub-volume ───► Frozen ViT ──► Patch Tokens ──► Linear Adapter ──┐
