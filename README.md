@@ -164,7 +164,8 @@ Key parameters in training configs:
 | `epoch` | `20` | Number of training epochs |
 | `learning_rate` | `1e-4` | Adam learning rate |
 
-```
+
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
