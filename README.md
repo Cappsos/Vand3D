@@ -163,17 +163,6 @@ Key parameters in training configs:
 | `epoch` | `20` | Number of training epochs |
 | `learning_rate` | `1e-4` | Adam learning rate |
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@mastersthesis{vand3d2025,
-  title  = {VAND3D: Vision-Language Anomaly Detection for 3D Medical Volumes},
-  author = {TODO},
-  year   = {2025},
-  school = {TODO}
-}
 ```
 
 ## License
