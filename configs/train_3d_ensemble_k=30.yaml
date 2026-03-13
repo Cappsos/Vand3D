@@ -1,5 +1,5 @@
 
-train_data_path: /home/nicoc/data/BraTS_3D
+train_data_path: ./data/BraTS_3D
 save_path:       ./experiments_3D/3D/3_patient
 dataset:         brats
 features_list:   [3,4,11]

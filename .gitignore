@@ -1,15 +1,35 @@
+# Archive (old/backup/debug files)
+archive/
 
-test_results_dice3d/2D/validation/*
-test_results_dice3d/3D/validation/*
-test_results_dice3d/2D/test/*
-test_results_dice3d/3D/test/*
-experiments_3D/*
-
-# ignore pyc
+# Python
+__pycache__/
 *.pyc
-results_nibabel/*
-test_results_dice3d/3D/prompt_ensemble/plots_2D/*
-test_results_dice3d/3D/prompt_ensemble/test/*
-test_results_dice3d/3D/1_patient_rationale/plots_2D/*
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Data files
 *.npy
-test_results_dice3d/*
+*.nii
+*.nii.gz
+
+# Experiment outputs
+experiments_3D/
+test_results_dice3d/
+results_nibabel*/
+wandb/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

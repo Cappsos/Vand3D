@@ -1,5 +1,5 @@
 
-test_data_path:  /home/nicoc/data/BraTS_3D
+test_data_path:  ./data/BraTS_3D
 save_path:       ./test_results_dice3d/3D
 checkpoint_path: ./experiments_3D/epoch_12.pth
 dataset:         brats
@@ -7,6 +7,6 @@ features_list:   [3,4,11]
 
 temperature_scale: 0.2
 depth:             32      # single‐slice inference
-gt_root:           /home/nicoc/data/BraTS_3D
+gt_root:           ./data/BraTS_3D
 dice_threshold:    null
 seed:              111

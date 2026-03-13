@@ -1,9 +1,0 @@
-healthy_prompts:
-  - "MRI showing unremarkable white matter and intact cortical structures"               # (Index 1, centroid 0.766)
-  - "Symmetrical sulci and gyri with no abnormal mass effect"                            # (Index 4, centroid 0.608)
-  - "Brain anatomy with normal symmetric ventricles and uniform gray matter"             # (Index 0, centroid 0.435)
-
-tumour_prompts:
-  - "Contrast-enhancing ring lesion with central necrosis and surrounding edema"          # (Index 0, centroid 0.664)
-  - "Heterogeneous tumor core with non-enhancing necrotic center and edema"              # (Index 4, centroid 0.645)
-  - "Irregular enhancing neoplasm with mass effect and ventricular compression"          # (Index 3, centroid 0.535)

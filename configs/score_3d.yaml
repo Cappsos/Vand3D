@@ -1,5 +1,5 @@
 results_root: ./test_results_dice3d/3D
-gt_root:      /home/nicoc/data/BraTS_3D
+gt_root:      ./data/BraTS_3D
 methods:      [VAND3D]
 prefix:       anomaly_map_depth_
 full_depth:   155

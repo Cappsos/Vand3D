@@ -1,5 +1,5 @@
-results_root: /mnt/external/results_nicoc/3D_final_final/full_shot_2d_replicated/
-gt_root:      /mnt/external/data/BraTS_3D
+results_root: ./results/full_shot_2d
+gt_root:      ./data/BraTS_3D
 methods:      [VAND3D]
 prefix:       anomaly_map_depth_
 full_depth:   155
@@ -7,4 +7,4 @@ target_h:     240
 target_w:     240
 depth:        32
 reconstruct_mode: slice
-threshold_json: /mnt/external/results_nicoc/3D_final_final/full_shot_2d_replicated/best_threshold.json
+threshold_json: ./results/full_shot_2d/best_threshold.json

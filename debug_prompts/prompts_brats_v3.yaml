@@ -1,9 +1,0 @@
-healthy_prompts:
-  - "Uniform cerebral white matter and gray matter intensity throughout"
-  - "Symmetric ventricles and sulci without any focal signal change"
-  - "Normal cortex contours with homogeneous cortical thickness"
-
-tumour_prompts:
-  - "Contrast-enhancing mass with central necrotic core and extensive edema"
-  - "Infiltrative glioblastoma demonstrating irregular enhancement and midline shift"
-  - "Heterogeneous neoplasm with peritumoral edema causing mass effect"

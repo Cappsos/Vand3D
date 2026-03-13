@@ -1,8 +1,8 @@
 
-test_data_path: /mnt/external/data/BraTS_3D
-save_path:       /mnt/external/results_nicoc/3D_final_final/full_shot_fused
-gt_root:    /mnt/external/data/BraTS_3D
-dice_threshold: /mnt/external/results_nicoc/3D_final_final/full_shot_fused
+test_data_path: ./data/BraTS_3D
+save_path:       ./results/full_shot_fused
+gt_root:    ./data/BraTS_3D
+dice_threshold: ./results/full_shot_fused
 checkpoint_path: ./experiments_3D/3D_final_plots/full_shot_fuse/epoch_18.pth
 depth:      32
 dataset:    brats
