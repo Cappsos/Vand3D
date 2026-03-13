@@ -1,0 +1,29 @@
+DEBUG LOG for prompt‐ensemble 'prompts_brats'
+================================================================================
+
+Pairwise cosine similarity (healthy prompts, N=3):
+Index        0       1       2
+0        1.000   0.761   0.852   // "A normal brain MRI scan showing standard anatomy"
+1        0.761   1.000   0.609   // "Brain MRI with typical appearance and consistent tissue"
+2        0.852   0.609   1.000   // "Cranial imaging demonstrating intact brain parenchyma"
+
+Pairwise cosine similarity (tumour prompts, N=4):
+Index        0       1       2       3
+0        1.000   0.214   0.570   0.514   // "Brain MRI showing a ring-enhancing lesion with central necrosis and extensive edema"
+1        0.214   1.000  -0.021   0.009   // "Contrast-enhanced MRI with hyperintense tumor and pronounced midline shift"
+2        0.570  -0.021   1.000   0.255   // "T2-weighted MRI revealing an irregular hyperintense mass with extensive peritumoral edema"
+3        0.514   0.009   0.255   1.000   // "FLAIR MRI demonstrating a heterogeneous neoplasm with central necrosis and mass effect"
+
+Cosine similarity of each healthy prompt to its raw centroid:
+  [ 0] A normal brain MRI scan showing standard anatomy             → 0.958
+  [ 1] Brain MRI with typical appearance and consistent tissue      → 0.869
+  [ 2] Cranial imaging demonstrating intact brain parenchyma        → 0.902
+
+Cosine similarity of each tumour prompt to its raw centroid:
+  [ 0] Brain MRI showing a ring-enhancing lesion with central necro → 0.864
+  [ 1] Contrast-enhanced MRI with hyperintense tumor and pronounced → 0.452
+  [ 2] T2-weighted MRI revealing an irregular hyperintense mass wit → 0.678
+  [ 3] FLAIR MRI demonstrating a heterogeneous neoplasm with centra → 0.668
+
+================================================================================
+End of debug log.

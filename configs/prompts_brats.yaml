@@ -1,0 +1,10 @@
+healthy_prompts:
+  - "A normal brain MRI scan showing standard anatomy"
+  - "Brain MRI with typical appearance and consistent tissue"
+  - "Cranial imaging demonstrating intact brain parenchyma"
+
+tumour_prompts:
+  - "Brain MRI showing a ring-enhancing lesion with central necrosis and extensive edema"
+  - "Contrast-enhanced MRI with hyperintense tumor and pronounced midline shift"
+  - "T2-weighted MRI revealing an irregular hyperintense mass with extensive peritumoral edema"
+  - "FLAIR MRI demonstrating a heterogeneous neoplasm with central necrosis and mass effect"

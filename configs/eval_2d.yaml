@@ -1,0 +1,12 @@
+
+test_data_path: /mnt/external/data/BraTS_3D
+save_path:       /mnt/external/results_nicoc/3D_final_final/full_shot_2d_replicated
+checkpoint_path: ./experiments_3D/3D_final_plots/full_shot_2D_replicated/epoch_17.pth
+dataset:         brats
+features_list:   [3,4,11]
+
+temperature_scale: 0.2
+depth:             1      # single‐slice inference
+gt_root:           /mnt/external/data/BraTS_3D
+dice_threshold:    null
+seed:              111

@@ -1,0 +1,27 @@
+DEBUG LOG for prompt‐ensemble 'prompts_brats'
+================================================================================
+
+Pairwise cosine similarity (healthy prompts, N=3):
+Index        0       1       2
+0        1.000   0.700   0.500   // "MRI showing unremarkable white matter and intact cortical structures"
+1        0.700   1.000   0.099   // "Symmetrical sulci and gyri with no abnormal mass effect"
+2        0.500   0.099   1.000   // "Brain anatomy with normal symmetric ventricles and uniform gray matter"
+
+Pairwise cosine similarity (tumour prompts, N=3):
+Index        0       1       2
+0        1.000   0.505   0.200   // "Contrast-enhancing ring lesion with central necrosis and surrounding edema"
+1        0.505   1.000   0.357   // "Heterogeneous tumor core with non-enhancing necrotic center and edema"
+2        0.200   0.357   1.000   // "Irregular enhancing neoplasm with mass effect and ventricular compression"
+
+Cosine similarity of each healthy prompt to its raw centroid:
+  [ 0] MRI showing unremarkable white matter and intact cortical st → 0.930
+  [ 1] Symmetrical sulci and gyri with no abnormal mass effect      → 0.761
+  [ 2] Brain anatomy with normal symmetric ventricles and uniform g → 0.676
+
+Cosine similarity of each tumour prompt to its raw centroid:
+  [ 0] Contrast-enhancing ring lesion with central necrosis and sur → 0.753
+  [ 1] Heterogeneous tumor core with non-enhancing necrotic center  → 0.823
+  [ 2] Irregular enhancing neoplasm with mass effect and ventricula → 0.688
+
+================================================================================
+End of debug log.

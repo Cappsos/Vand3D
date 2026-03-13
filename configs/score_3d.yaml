@@ -1,0 +1,10 @@
+results_root: ./test_results_dice3d/3D
+gt_root:      /home/nicoc/data/BraTS_3D
+methods:      [VAND3D]
+prefix:       anomaly_map_depth_
+full_depth:   155
+target_h:     240
+target_w:     240
+depth:        32
+reconstruct_mode: subvolume
+threshold_json: ./test_results_dice3d/3D/best_threshold.json

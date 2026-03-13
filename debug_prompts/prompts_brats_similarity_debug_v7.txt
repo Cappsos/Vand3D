@@ -1,0 +1,29 @@
+DEBUG LOG for prompt‐ensemble 'prompts_brats'
+================================================================================
+
+Pairwise cosine similarity (healthy prompts, N=3):
+Index        0       1       2
+0        1.000   0.761   0.852   // "A normal brain MRI scan showing standard anatomy"
+1        0.761   1.000   0.609   // "Brain MRI with typical appearance and consistent tissue"
+2        0.852   0.609   1.000   // "Cranial imaging demonstrating intact brain parenchyma"
+
+Pairwise cosine similarity (tumour prompts, N=4):
+Index        0       1       2       3
+0        1.000   0.784  -0.097  -0.096   // "MRI revealing a malignant glioma in the cerebral cortex"
+1        0.784   1.000  -0.116  -0.252   // "Presence of an abnormal brain tumor with irregular borders"
+2       -0.097  -0.116   1.000   0.224   // "Contrast-enhancing ring lesion with central necrosis and marked sulcal effacement"
+3       -0.096  -0.252   0.224   1.000   // "Irregular enhancing neoplasm with peritumoral edema and midline shift"
+
+Cosine similarity of each healthy prompt to its raw centroid:
+  [ 0] A normal brain MRI scan showing standard anatomy             → 0.958
+  [ 1] Brain MRI with typical appearance and consistent tissue      → 0.869
+  [ 2] Cranial imaging demonstrating intact brain parenchyma        → 0.902
+
+Cosine similarity of each tumour prompt to its raw centroid:
+  [ 0] MRI revealing a malignant glioma in the cerebral cortex      → 0.719
+  [ 1] Presence of an abnormal brain tumor with irregular borders   → 0.640
+  [ 2] Contrast-enhancing ring lesion with central necrosis and mar → 0.457
+  [ 3] Irregular enhancing neoplasm with peritumoral edema and midl → 0.396
+
+================================================================================
+End of debug log.

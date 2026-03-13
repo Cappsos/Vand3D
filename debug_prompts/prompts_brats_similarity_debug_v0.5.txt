@@ -1,0 +1,35 @@
+DEBUG LOG for prompt‐ensemble 'prompts_brats'
+================================================================================
+
+Pairwise cosine similarity (healthy prompts, N=5):
+Index        0       1       2       3       4
+0        1.000   0.086   0.761   0.852   0.253   // "A normal brain MRI scan showing standard anatomy"
+1        0.086   1.000  -0.006  -0.041  -0.163   // "Healthy cerebral structures with uniform intensity"
+2        0.761  -0.006   1.000   0.609   0.453   // "Brain MRI with typical appearance and consistent tissue"
+3        0.852  -0.041   0.609   1.000   0.267   // "Cranial imaging demonstrating intact brain parenchyma"
+4        0.253  -0.163   0.453   0.267   1.000   // "Normal brain anatomy visible on MRI"
+
+Pairwise cosine similarity (tumour prompts, N=5):
+Index        0       1       2       3       4
+0        1.000   0.784   0.371   0.243  -0.007   // "MRI revealing a malignant glioma in the cerebral cortex"
+1        0.784   1.000   0.400   0.022  -0.084   // "Presence of an abnormal brain tumor with irregular borders"
+2        0.371   0.400   1.000   0.152  -0.100   // "High-grade tumor mass within brain tissue on MRI"
+3        0.243   0.022   0.152   1.000   0.102   // "Infiltrative glioblastoma visible in cranial imaging"
+4       -0.007  -0.084  -0.100   0.102   1.000   // "Abnormal enhancing neoplasm in the white matter"
+
+Cosine similarity of each healthy prompt to its raw centroid:
+  [ 0] A normal brain MRI scan showing standard anatomy             → 0.885
+  [ 1] Healthy cerebral structures with uniform intensity           → 0.262
+  [ 2] Brain MRI with typical appearance and consistent tissue      → 0.844
+  [ 3] Cranial imaging demonstrating intact brain parenchyma        → 0.805
+  [ 4] Normal brain anatomy visible on MRI                          → 0.542
+
+Cosine similarity of each tumour prompt to its raw centroid:
+  [ 0] MRI revealing a malignant glioma in the cerebral cortex      → 0.808
+  [ 1] Presence of an abnormal brain tumor with irregular borders   → 0.717
+  [ 2] High-grade tumor mass within brain tissue on MRI             → 0.616
+  [ 3] Infiltrative glioblastoma visible in cranial imaging         → 0.513
+  [ 4] Abnormal enhancing neoplasm in the white matter              → 0.308
+
+================================================================================
+End of debug log.

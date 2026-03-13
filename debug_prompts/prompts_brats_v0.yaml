@@ -1,0 +1,12 @@
+healthy_prompts:
+  - "A normal brain with no pathology"
+  - "Healthy brain tissue without anomalies"
+  - "Unremarkable brain MRI"
+  - "Normal anatomical appearance, no lesions"
+  - "No indication of glioma or other tumor"
+tumour_prompts:
+  - "A malignant glioma lesion in the brain"
+  - "Brain MRI showing infiltrative tumor"
+  - "Presence of glioblastoma in cerebral tissue"
+  - "Anomalous mass in brain white matter"
+  - "High-grade tumor region in cranial volume"

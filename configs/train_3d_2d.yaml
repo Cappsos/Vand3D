@@ -1,0 +1,20 @@
+
+train_data_path: /mnt/external/data/BraTS_3D
+val_data_path: /mnt/external/data/BraTS_3D
+save_path:       ./experiments_3D/3D_final_plots/full_shot_2D_replicated
+dataset:         brats
+features_list:   [3,4,11]
+
+epoch:           20
+learning_rate:   1e-4
+batch_size:      1
+depth:           1     # single-slice
+image_size:      256
+print_freq:      10
+save_freq:       1
+temperature:     0.2
+prompt_ensemble: True
+prompt_path: ./configs/prompts_brats.yaml
+
+fusion: False
+fusion_scales: [1]

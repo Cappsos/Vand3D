@@ -1,0 +1,1 @@
+BraTS-MET-00024-000   # multi_foci: 32 separate clusters, largest ≈7.7 K voxels

@@ -1,0 +1,9 @@
+
+test_data_path: /home/nicoc/data/BraTS_3D
+save_path:      ./test_results_dice3d/3D
+preds_root: ./test_results_2D/patients
+gt_root:    /home/nicoc/data/BraTS_3D
+dice_threshold: ./test_results_dice3d/3D/
+depth:      32
+dataset:    brats
+seed: 111

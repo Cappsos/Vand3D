@@ -1,0 +1,15 @@
+
+test_results_dice3d/2D/validation/*
+test_results_dice3d/3D/validation/*
+test_results_dice3d/2D/test/*
+test_results_dice3d/3D/test/*
+experiments_3D/*
+
+# ignore pyc
+*.pyc
+results_nibabel/*
+test_results_dice3d/3D/prompt_ensemble/plots_2D/*
+test_results_dice3d/3D/prompt_ensemble/test/*
+test_results_dice3d/3D/1_patient_rationale/plots_2D/*
+*.npy
+test_results_dice3d/*

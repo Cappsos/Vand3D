@@ -1,0 +1,5 @@
+BraTS-MET-00296-000   # small:   total 728 voxels, 1 component
+BraTS-MET-00036-000   # medium:  total 2 092 voxels, 1 component
+BraTS-MET-00274-000   # large:   total 141 541 voxels, 1 component
+BraTS-MET-00024-000   # multi_foci: 32 clusters, largest ≈7.7 K voxels
+BraTS-MET-00118-000   # medium:  total 6 495 voxels, 1 component

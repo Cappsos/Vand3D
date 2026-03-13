@@ -1,0 +1,9 @@
+healthy_prompts:
+  - "A normal brain MRI scan showing standard anatomy"
+  - "Brain MRI with typical appearance and consistent tissue"
+  - "Cranial imaging demonstrating intact brain parenchyma"
+
+tumour_prompts:
+  - "MRI revealing a malignant glioma in the cerebral cortex"
+  - "Presence of an abnormal brain tumor with irregular borders"
+  - "High-grade tumor mass within brain tissue on MRI"

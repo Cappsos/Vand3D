@@ -1,0 +1,10 @@
+BraTS-MET-00296-000   # small
+BraTS-MET-00107-000   # small
+BraTS-MET-00036-000   # medium
+BraTS-MET-00118-000   # medium
+BraTS-MET-00266-000   # medium
+BraTS-MET-00274-000   # large
+BraTS-MET-00307-000   # large
+BraTS-MET-00112-000   # large
+BraTS-MET-00024-000   # multi_foci
+BraTS-MET-00182-000   # multi_foci

@@ -1,0 +1,10 @@
+results_root: /mnt/external/results_nicoc/3D_final_final/mvfaad/
+gt_root:      /mnt/external/data/BraTS_3D
+methods:      [VAND3D]
+prefix:       anomaly_map_depth_
+full_depth:   155
+target_h:     240
+target_w:     240
+depth:        32
+reconstruct_mode: slice
+threshold: 1.3

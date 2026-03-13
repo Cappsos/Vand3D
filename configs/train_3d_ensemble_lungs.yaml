@@ -1,0 +1,20 @@
+
+train_data_path: /home/nicoc/Task06_Lung
+val_data_path:  /home/nicoc/Task06_Lung
+save_path:       ./experiments_3D/3D/full_shot_lungs
+dataset:         lungs
+features_list:   [3,4,11]
+
+epoch:           50
+learning_rate:   1e-4
+batch_size:      1
+depth:           32     # single-slice
+image_size:      256
+print_freq:      10
+save_freq:       1
+temperature:     0.2
+prompt_ensemble: True
+prompt_path: ./configs/prompts_lungs.yaml
+
+fusion: False
+fusion_scales: [1]

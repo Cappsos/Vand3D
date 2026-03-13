@@ -1,0 +1,10 @@
+
+test_data_path: /mnt/external/data/BraTS_3D
+save_path:       /mnt/external/results_nicoc/3D_final_final/full_shot_no_ensamble
+gt_root:    /mnt/external/data/BraTS_3D
+dice_threshold:  /mnt/external/results_nicoc/3D_final_final/full_shot_no_ensamble
+checkpoint_path: ./experiments_3D/3D_final_plots/3D_full_shot_no_ensable/epoch_18.pth
+depth:      32
+dataset:    brats
+seed: 111
+prompt_ensemble:   False
